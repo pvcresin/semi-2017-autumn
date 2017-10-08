@@ -8,3 +8,5 @@ https://github.com/Paperist/starter-kit
 Docs
 https://paperist.mikumiku.moe/
 
+Issues
+https://github.com/Paperist/issues/issues

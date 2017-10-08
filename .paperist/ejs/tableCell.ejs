@@ -1,0 +1,6 @@
+<%= value.replace(/\\n/g, ' \\newline ') -%>
+<% if (!isLast) {
+  -%> & <%
+} else {
+  -%> \\ <%
+} %>

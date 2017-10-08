@@ -11,9 +11,9 @@ const en = (match[2] || "").trim();
 \ecaption{<%= en %>}
 <% } -%>
 <%= label %>
-\begin{tabular}{<%= align %>}
+\begin{tabu} to 0.85\linewidth {<%= align.replace(/\w/g, 'X[$&]') %>}
 <%= value %>
-\end{tabular}
+\end{tabu}
 \end{center}
 \end{table}
 <%# Line Break %>

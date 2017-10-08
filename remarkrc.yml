@@ -18,8 +18,8 @@ settings:
           author: true
           abstract: true
       title:
-        ja: タイトル日本語
-        en: Title
+        ja: "ThumbSurface: 握りこぶしの側面上で親指を滑らせることによるスマートウォッチ操作手法"
+        en: "ThumbSurface: One-Handed Continuous Input on Smartwatches using Sliding-Thumb Gesture on the Side of the Fist."
       date:
         year: 2017
       keywords:
@@ -37,4 +37,3 @@ settings:
           name:
             ja: 鳥山 らいか
             en: Raika Toriyama
-          email: #cs172044@ipsj.or.jp
