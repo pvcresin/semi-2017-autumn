@@ -1,0 +1,40 @@
+output: true
+plugins:
+  - ["remark-behead", { after: null, depth: 1 }]
+  - "@paperist/remark-latex"
+settings:
+  latex:
+    templatesDir: .paperist/ejs
+    imageConfigs:
+      width: 0.9\linewidth
+      height: 0.25\paperheight
+    documentInfo:
+      fontpreset: ipaex
+      flags:
+        interaction: true
+        acknowledgment: false
+        appendix: false
+        english:
+          author: true
+          abstract: true
+      title:
+        ja: タイトル日本語
+        en: Title
+      date:
+        year: 2017
+      keywords:
+        ja: false
+        en: false
+      affiliates:
+        - id: Meiji
+          isPresent: false
+          name:
+            ja: 明治大学大学院先端数理科学研究科先端メディアサイエンス専攻
+            en: Program in Frontier Media Science, Graduate School of Advanced Mathematical Sciences, Meiji University.
+      authors:
+        - affiliateIds:
+            - Meiji
+          name:
+            ja: 鳥山 らいか
+            en: Raika Toriyama
+          email: #cs172044@ipsj.or.jp
