@@ -16,6 +16,7 @@
     "watch": "sane \"npm run build\" --glob=\"{latexmkrc,remarkrc.yml,{src,assets,bibs,fonts}/**/*}\""
   },
   "dependencies": {
+    "@paperist/template-sourcehan-fonts": "https://github.com/Paperist/template-sourcehan-fonts.git",
     "@paperist/template-ipsj-techreport": "https://github.com/Paperist/template-ipsj-techreport.git"
   },
   "devDependencies": {
