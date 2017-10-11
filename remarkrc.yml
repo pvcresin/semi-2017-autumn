@@ -16,7 +16,7 @@ settings:
         appendix: false
         english:
           author: true
-          abstract: true
+          abstract: false
       title:
         ja: "ThumbSurface: 握りこぶしの側面上で親指を滑らせることによるスマートウォッチ操作手法"
         en: "ThumbSurface: One-Handed Continuous Input on Smartwatches using Sliding-Thumb Gesture on the Side of the Fist."
